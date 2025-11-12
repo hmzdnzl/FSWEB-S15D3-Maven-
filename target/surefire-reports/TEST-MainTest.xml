@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MainTest" time="1.157" tests="5" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="D:\JS\FSWEB-S15D3-Maven-\target\test-classes;D:\JS\FSWEB-S15D3-Maven-\target\classes;C:\Users\HAMZA\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\HAMZA\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\HAMZA\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HAMZA\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\HAMZA\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\HAMZA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HAMZA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\HAMZA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\HAMZA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\HAMZA\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\HAMZA\.m2\repository\org\json\json\20240205\json-20240205.jar;C:\Users\HAMZA\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\HAMZA\AppData\Local\Temp\surefire10079950790096866197\surefirebooter5123730158425097874.jar C:\Users\HAMZA\AppData\Local\Temp\surefire10079950790096866197 2025-11-12T23-51-53_264-jvmRun1 surefire11894399386730357672tmp surefire_014361504939687692480tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="MainTest"/>
+    <property name="surefire.test.class.path" value="D:\JS\FSWEB-S15D3-Maven-\target\test-classes;D:\JS\FSWEB-S15D3-Maven-\target\classes;C:\Users\HAMZA\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\HAMZA\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\HAMZA\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HAMZA\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\HAMZA\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\HAMZA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HAMZA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\HAMZA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\HAMZA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\HAMZA\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\HAMZA\.m2\repository\org\json\json\20240205\json-20240205.jar;C:\Users\HAMZA\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HAMZA"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\JS\FSWEB-S15D3-Maven-"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\HAMZA\AppData\Local\Temp\surefire10079950790096866197\surefirebooter5123730158425097874.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="HAMZA"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1254"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\HAMZA\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HAMZA\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="D:\JS\FSWEB-S15D3-Maven-"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\HAMZA\AppData\Local\Google\Chrome\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python313\Scripts\;C:\Python313\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Apache\maven\bin;C:\Users\HAMZA\AppData\Local\Microsoft\WindowsApps;C:\Users\HAMZA\AppData\Local\GitHubDesktop\bin;C:\Users\HAMZA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HAMZA\AppData\Roaming\npm;C:\Program Files\Java\jdk-17\bin;c:\Users\HAMZA\.vscode\extensions\vscjava.vscode-java-debug-0.58.3\bundled\scripts\noConfigScripts;c:\Users\HAMZA\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testCalculateWordMethod" classname="MainTest" time="0.032"/>
+  <testcase name="testTaskAccessModifiers" classname="MainTest" time="0.001"/>
+  <testcase name="testRemoveMethod" classname="MainTest" time="0.011"/>
+  <testcase name="testFindUniquesMethod" classname="MainTest" time="0.008">
+    <error message="Cannot invoke &quot;org.example.entity.Employee.getId()&quot; because the return value of &quot;java.util.List.get(int)&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.example.entity.Employee.getId()" because the return value of "java.util.List.get(int)" is null
+	at MainTest.testFindUniquesMethod(MainTest.java:56)
+</error>
+  </testcase>
+  <testcase name="testFindDuplicatesMethod" classname="MainTest" time="0.001"/>
+</testsuite>

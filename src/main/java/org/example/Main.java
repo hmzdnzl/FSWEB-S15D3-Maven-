@@ -20,7 +20,9 @@ public class Main {
         personeller.add(new Employee(1, "Ahmet", "Ateş"));
         personeller.add(new Employee(4, "Fatma", "Kaya"));
         personeller.add(new Employee(5, "Ali", "Çelik"));
+        personeller.add(new Employee(3, "Ayşe", "Demir"));
         personeller.add(new Employee(6, "Veli", "Öztürk"));
+
 
 
         System.out.println(personeller);
@@ -38,43 +40,54 @@ public class Main {
     }
     public static List<Employee> findDuplicates(List<Employee> personeller) {
         List<Employee> tekrarlanan = new LinkedList<>();
-
+        if (personeller == null) return tekrarlanan;
         for (int i = 0; i < personeller.size(); i++) {
+            Employee e1 = personeller.get(i);
+            if (e1 == null) continue;
             for (int j = i + 1; j < personeller.size(); j++) {
-                if (personeller.get(i).getId() == personeller.get(j).getId()) {
-                    Employee e = personeller.get(i);
-                    if (!tekrarlanan.contains(e)) {
-                        tekrarlanan.add(e);
+                Employee e2 = personeller.get(j);
+                if (e2 == null) continue;
+                if (e1.equals(e2)) {
+                    if (!tekrarlanan.contains(e1)) {
+                        tekrarlanan.add(e1);
                     }
+                    
                 }
             }
         }
-
         return tekrarlanan;
     }
 
     public static Map<Integer, Employee> findUniques(List<Employee> personeller) {
         Map<Integer, Employee>  tekrarlanmayanlar = new HashMap<>();
-
-        for (int i =0; i<personeller.size();i++) {
-            tekrarlanmayanlar.put(personeller.get(i).getId(), personeller.get(i));
+        if (personeller == null) return tekrarlanmayanlar;
+        for (int i = 0; i < personeller.size(); i++) {
+            Employee e = personeller.get(i);
+            if (e == null) continue;
+            tekrarlanmayanlar.put(e.getId(), e);
         }
         return tekrarlanmayanlar;
     }
 
     public static List<Employee> removeDuplicates(List<Employee> personeller) {
         List<Employee> tekrarsiz = new LinkedList<>();
-
+        if (personeller == null) return tekrarsiz;
         for (int i = 0; i < personeller.size(); i++) {
+            Employee e1 = personeller.get(i);
+            if (e1 == null) continue;
             boolean duplicate = false;
             for (int j = 0; j < personeller.size(); j++) {
-                if (i != j && personeller.get(i).getId() == personeller.get(j).getId()) {
-                    duplicate = true;
-                    break;
+                if (i != j) {
+                    Employee e2 = personeller.get(j);
+                    if (e2 == null) continue;
+                    if (e1.equals(e2)) {
+                        duplicate = true;
+                        break;
+                    }
                 }
             }
-            if (!duplicate && !tekrarsiz.contains(personeller.get(i))) {
-                tekrarsiz.add(personeller.get(i));
+            if (!duplicate && !tekrarsiz.contains(e1)) {
+                tekrarsiz.add(e1);
             }
         }
         return tekrarsiz;

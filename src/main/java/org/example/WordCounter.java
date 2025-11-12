@@ -31,6 +31,7 @@ public class WordCounter {
     public static Map<String,Integer> calculatedWord() {
         Map<String, Integer> tekrarSayisi = new HashMap<>();
         for (String kelime : kelimeler) {
+            kelime = kelime.toLowerCase().replaceAll("[.,?!]", "");
             tekrarSayisi.put(kelime, tekrarSayisi.getOrDefault(kelime, 0) + 1);
         }
         return tekrarSayisi;
